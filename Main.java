@@ -1,4 +1,3 @@
-
 /**
  * 在这里给出对类 Main 的描述。
  * 
@@ -8,6 +7,7 @@
 public class Main
 {
     public static void main(String args[]){
+        int ob = 10;
         int summe = 0;
         for (int i = 0; i <= 10; i++ ){
             summe = summe + i;
@@ -17,6 +17,8 @@ public class Main
         for (int i = 1; i <= 10; i++){
             mult *= i;
         }
+        
+        System.out.println("Summe " + summe + "Mult :" + mult);
     }
    
 }
