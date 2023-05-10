@@ -10,12 +10,12 @@ public class Main
     public static void main(String args[]){
         int summe = 0;
         for (int i = 0; i <= 10; i++ ){
-            summe = summe + 1;
+            summe = summe + i;
         }
         
         int mult =1;
         for (int i = 1; i <= 10; i++){
-            mult = mult * i;
+            mult *= i;
         }
     }
    
