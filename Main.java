@@ -14,12 +14,14 @@ public class Main
             summe = summe + i;
         }
         
+
         BigInteger mult = new BigInteger("1");
         for (int i = 1; i <= ob; i++){
             mult = mult.multiply(BigInteger.valueOf(i));
-        }
+
         
         System.out.println("Summe " + summe + "Mult :" + mult);
     }
-   
 }
+   
+
