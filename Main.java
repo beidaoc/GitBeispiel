@@ -1,4 +1,4 @@
-import java.math.*;
+import java.math.BigInteger;
 /**
  * 在这里给出对类 Main 的描述。
  * 
