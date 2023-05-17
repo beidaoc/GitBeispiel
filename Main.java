@@ -1,3 +1,4 @@
+import java.math.*;
 /**
  * 在这里给出对类 Main 的描述。
  * 
@@ -9,13 +10,13 @@ public class Main
     public static void main(String args[]){
         int ob = 50;
         int summe = 0;
-        for (int i = 0; i <= 10; i++ ){
+        for (int i = 0; i <= ob; i++ ){
             summe = summe + i;
         }
         
-        int mult =1;
-        for (int i = 1; i <= 10; i++){
-            mult *= i;
+        BigInteger mult = new BigInteger("1");
+        for (int i = 1; i <= ob; i++){
+            mult = mult.multiply(BigInteger.valueOf(i));
         }
         
         System.out.println("Summe " + summe + "Mult :" + mult);
