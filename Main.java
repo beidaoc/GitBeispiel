@@ -23,8 +23,10 @@ public class Main
         System.out.println("Summe " + summe + "Mult :" + mult);
     }
 
+
     //rebase upadte 1
-    //master upadte 2
+    //rebase upadte 2
+
 
 }
 }
